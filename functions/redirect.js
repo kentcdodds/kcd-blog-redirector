@@ -1,6 +1,6 @@
 const codeToBlogUrl = require('../lib/code-to-blog-url')
 
-exports.handler = async (event, context) => {
+exports.handler = async event => {
   // just something for grouping the netlify logs for this run together
   const runId = Date.now()
     .toString()
@@ -14,21 +14,13 @@ exports.handler = async (event, context) => {
     log(`no code provided`)
     return getResponse({statusCode: 301})
   }
-  try {
-    const blogUrl = codeToBlogUrl(code)
-    if (blogUrl) {
-      return getResponse({blogUrl, statusCode: 301})
-    }
-  } catch (error) {
-    if (error.stack) {
-      log(error.stack)
-    } else {
-      log(error)
-    }
-    log('!! there was an error and we are ignoring it... !!')
-  }
 
-  return getResponse()
+  const blogUrl = codeToBlogUrl(code)
+  if (blogUrl) {
+    return getResponse({blogUrl, statusCode: 301})
+  } else {
+    return getResponse()
+  }
 
   function getResponse({
     blogUrl = 'https://kentcdodds.com/blog',
@@ -54,8 +46,4 @@ exports.handler = async (event, context) => {
       },
     }
   }
-}
-
-function getEnv(name, defaultValue) {
-  return process.env[name] || defaultValue
 }
