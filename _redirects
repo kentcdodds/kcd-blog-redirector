@@ -1,0 +1,8 @@
+# known common redirects:
+/write-tests-not-too-many-mostly-integration-5e8c7fff591c https://kentcdodds.com/blog/write-tests
+
+# redirect fallback
+/:code   /.netlify/functions/redirect/:code
+
+# ultimate fallback
+/*     https://kentcdodds.com/blog
