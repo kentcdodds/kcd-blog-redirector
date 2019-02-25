@@ -265,6 +265,7 @@
 
 # redirect fallback
 /:code                                                                                                      /.netlify/functions/redirect/:code
+/*                                                                                                          /.netlify/functions/redirect/*
 
 # ultimate fallback
 /*                                                                                                          https://kentcdodds.com/blog
