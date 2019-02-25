@@ -1,0 +1,4 @@
+# Welcome to kcd.im =)
+# robots welcome;
+User-Agent: *
+Disallow:
