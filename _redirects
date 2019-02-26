@@ -15,7 +15,6 @@
 /ccb8d269586                                                                                                https://kentcdodds.com/blog/testing-implementation-details
 /6a3ee231304a                                                                                               https://kentcdodds.com/blog/useeffect-vs-uselayouteffect
 /72c59e2729c6                                                                                               https://kentcdodds.com/blog/please-stop-building-inaccessible-forms-and-how-to-fix-them
-/9d1acc07c839                                                                                               https://kentcdodds.com/blog/paypal-scripts-now-supports-typescript-as-well-as-javascript
 /e7c97d3b0fde                                                                                               https://kentcdodds.com/blog/2018-in-review
 /ea1722e0d400                                                                                               https://kentcdodds.com/blog/light-the-world
 /952fbfd57ea                                                                                                https://kentcdodds.com/blog/react-hooks-array-destructuring-fundamentals
@@ -54,7 +53,6 @@
 /51c34b44b1df                                                                                               https://kentcdodds.com/blog/updated-advanced-react-component-patterns
 /c2d56a901f37                                                                                               https://kentcdodds.com/blog/react-devtools
 /bb62e02cb691                                                                                               https://kentcdodds.com/blog/prop-drilling
-/f5eff638df5c                                                                                               https://kentcdodds.com/blog/free-frontend-masters-courses-for-a-week
 /e0a447edcac2                                                                                               https://kentcdodds.com/blog/how-i-learn-an-open-source-codebase
 /4328f1e26bb5                                                                                               https://kentcdodds.com/blog/mixing-component-patterns
 /cbef580d1897                                                                                               https://kentcdodds.com/blog/pure-modules
@@ -87,7 +85,6 @@
 /b45436f34a00                                                                                               https://kentcdodds.com/blog/improving-the-usability-of-your-modules
 /e0d1a2c28eca                                                                                               https://kentcdodds.com/blog/effective-snapshot-testing
 /d37a6ee37269                                                                                               https://kentcdodds.com/blog/making-your-ui-tests-resilient-to-change
-/3079d5aec43b                                                                                               https://kentcdodds.com/blog/did-you-know
 /d34163a09c13                                                                                               https://kentcdodds.com/blog/make-maintainable-workarounds-with-codegen
 /549eaef76acf                                                                                               https://kentcdodds.com/blog/how-to-give-rendering-control-to-users-with-prop-getters
 /412ab5e47229                                                                                               https://kentcdodds.com/blog/tools-without-config
@@ -112,7 +109,6 @@
 /fce8394c14e2                                                                                               https://kentcdodds.com/blog/an-argument-for-automation
 /7d50ecfe1cb4                                                                                               https://kentcdodds.com/blog/what-open-source-project-should-i-contribute-to
 /8480cd756a80                                                                                               https://kentcdodds.com/blog/how-getting-into-open-source-has-been-awesome-for-me
-/46700561f38d                                                                                               https://kentcdodds.com/blog/introducing-javascript-air
 /dd8fc8b80895                                                                                               https://kentcdodds.com/blog/semicolons-in-javascript-a-preference
 /2c7870858df                                                                                                https://kentcdodds.com/blog/why-users-care-about-how-you-write-code
 /53d0b5b26d5f                                                                                               https://kentcdodds.com/blog/please-dont-commit-commented-out-code
@@ -126,14 +122,21 @@
 /78281ea47455                                                                                               https://kentcdodds.com/blog/first-timers-only
 /3a4a55baa58a                                                                                               https://kentcdodds.com/blog/continuous-delivery
 /8b4616af9539                                                                                               https://kentcdodds.com/blog/newspaper-code-structure
-/e04d4dd58ddc                                                                                               https://kentcdodds.com/blog/how-to-distribute-your-angularjs-module
-/332307a7a112                                                                                               https://kentcdodds.com/blog/accessibility-mode
-/e7cffe38114d                                                                                               https://kentcdodds.com/blog/es6-getter-setter
-/18410a8cb972                                                                                               https://kentcdodds.com/blog/angularjs-css-in-js
-/9f9705d8731b                                                                                               https://kentcdodds.com/blog/why-i-care-about-smart-watches
-/9857b2cead01                                                                                               https://kentcdodds.com/blog/angularjs-one-time-bindings-and-recompiling-templates
-/11c5134dc2ef                                                                                               https://kentcdodds.com/blog/watching-your-angularjs-watchers
-/108652bde20e                                                                                               https://kentcdodds.com/blog/angularjs-script-loading
+
+# old blog posts that will remain on medium
+/e04d4dd58ddc                                                                                               https://medium.com/@kentcdodds/e04d4dd58ddc
+/332307a7a112                                                                                               https://medium.com/@kentcdodds/332307a7a112
+/e7cffe38114d                                                                                               https://medium.com/@kentcdodds/e7cffe38114d
+/18410a8cb972                                                                                               https://medium.com/@kentcdodds/18410a8cb972
+/9f9705d8731b                                                                                               https://medium.com/@kentcdodds/9f9705d8731b
+/9857b2cead01                                                                                               https://medium.com/@kentcdodds/9857b2cead01
+/11c5134dc2ef                                                                                               https://medium.com/@kentcdodds/11c5134dc2ef
+/108652bde20e                                                                                               https://medium.com/@kentcdodds/108652bde20e
+/9d1acc07c839                                                                                               https://medium.com/@kentcdodds/9d1acc07c839
+/24aade62fd7e                                                                                               https://medium.com/@kentcdodds/24aade62fd7e
+/46700561f38d                                                                                               https://medium.com/@kentcdodds/46700561f38d
+/3079d5aec43b                                                                                               https://medium.com/@kentcdodds/3079d5aec43b
+/f5eff638df5c                                                                                               https://medium.com/@kentcdodds/f5eff638df5c
 
 # full-title redirects to code
 /please-stop-building-inaccessible-forms-and-how-to-fix-them-72c59e2729c6                                   /72c59e2729c6
