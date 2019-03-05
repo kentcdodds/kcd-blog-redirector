@@ -269,7 +269,6 @@
 
 # redirect fallback
 /:code                                                                                                      /.netlify/functions/redirect/:code
-/*                                                                                                          /.netlify/functions/redirect/:splat
 
 # ultimate fallback
 /*                                                                                                          https://kentcdodds.com/blog
