@@ -266,6 +266,9 @@
 /counting-angularjs-watchers-11c5134dc2ef                                                                   /11c5134dc2ef
 /angularjs-script-loading-108652bde20e                                                                      /108652bde20e
 
+/the-state-reducer-pattern--b40316cfac57                                                                    https://kentcdodds.com/blog/the-state-reducer-pattern
+/testing--components-using-render-props-5623ab1814c                                                         https://kentcdodds.com/blog/testing-components-using-render-props
+/react-is-an-implementation-detail-and-course-faq-ee73b028745e                                              https://kentcdodds.com/blog/react-is-an-implementation-detail
 
 # redirect fallback
 /:code                                                                                                      /.netlify/functions/redirect/:code
